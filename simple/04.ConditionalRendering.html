@@ -20,11 +20,19 @@
 </style>
 <body>
   <div id="app">
+    <div class="v-if-used">
+      <h2># v-if</h2>
+      <p v-if="ok">Yes</p>
+      <input v-model="ok" type="checkbox">change OK</input>
+    </div>
+    <hr>
+
   </div>
   <script>
     var app = new Vue({
       el: '#app',
-      data: {      
+      data: {
+          ok : false,
       },
       methods: {
       }
