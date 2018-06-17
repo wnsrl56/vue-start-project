@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Vue</title>
+    <script src="https://unpkg.com/vue"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+<style>
+    h2 {
+        color: mediumseagreen;
+    }
+    body {
+        background: rgba(214, 238, 227, 0.349);
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 13px;
+    }
+    hr {
+        border-color:  rgba(174, 208, 241, 0.288)
+    }
+</style>
+<body>
+<div id="app">
+    <test-component/>
+</div>
+<script>
+    var testComponentOption =  {
+        template: '<div>사용자 정의 컴포넌트 입니다!</div>'
+    };
+
+
+    var app = new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                test: '1'
+            }
+        },
+        components: {
+            'test-component' : testComponentOption
+        }
+    });
+</script>
+</body>
+</html>
