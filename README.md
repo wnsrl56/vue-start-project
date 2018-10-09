@@ -1,5 +1,27 @@
-#### **Vue Start Project**
-1. 해당 프로젝트는 Vue quick start 코드를 정리해둔 프로젝트입니다.
-2. 모든 코드는 원하는 대로 가공하셔도 됩니다.
+# vue-examples
 
-created by Jun(wnsrl56@gmail.com)
+> this is a Vue-example composition Project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
